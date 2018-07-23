@@ -1,5 +1,6 @@
-#include <stdio.h>
-int main(void) {
+#include<stdio.h>
+int main(void) 
+{
 char a;
 scanf("%c",&a);
 if((a>='a'&&a<='z')||(a>='A'&&a<='Z'))
@@ -9,4 +10,3 @@ else
 printf("consonant");
 return 0;
 }
-© 2018 GitHub, Inc.
